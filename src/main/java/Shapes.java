@@ -4,9 +4,9 @@ public class Shapes {
 
         drawShapeOutline(4, 10);
 
-        drawShapeCorners(4, 10);
-
         drawShapeOutline(5);
+
+        drawShapeCorners(4, 10);
 
         drawShapeCorners(5);
 
@@ -31,8 +31,8 @@ public class Shapes {
         }
     }
 
-    private static void drawShapeCorners(int height) {
-        drawShapeCorners(height, height);
+    private static void drawShapeCorners(int side) {
+        drawShapeCorners(side, side);
     }
 
     public static void drawShapeOutline(int height, int width) {
@@ -50,8 +50,8 @@ public class Shapes {
         }
     }
 
-    public static void drawShapeOutline(int height) {
-        drawShapeOutline(height, height);
+    public static void drawShapeOutline(int side) {
+        drawShapeOutline(side, side);
     }
 
 }
