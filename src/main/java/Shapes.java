@@ -1,5 +1,4 @@
 public class Shapes {
-
     public static void main(String[] args) {
 
         drawShapeOutline(4, 10);
@@ -9,6 +8,8 @@ public class Shapes {
         drawShapeCorners(4, 10);
 
         drawShapeCorners(5);
+
+        drawFullShape(6,9);
 
     }
 
@@ -54,7 +55,18 @@ public class Shapes {
         drawShapeOutline(side, side);
     }
 
-}
+        public static void drawFullShape ( int height, int width){
+            for (int x = 0; x < height; x++) {
+                for (int i = 0; i < width; i++) {
+                    System.out.print(" * ");
+                }
+                System.out.println();
+            }
+        }
+    }
+
+
+
 
 
 

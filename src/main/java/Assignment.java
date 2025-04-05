@@ -76,11 +76,10 @@ public class Assignment {
         String message = "Message";
 
         for (int i = 0; i <= message.length() -1; i++) {
-            if ((i+1) % 3 == 0) {
+            if ((i == 2)) {
                 System.out.println(message.charAt(i));
             }
         }
-
     }
 }
 
