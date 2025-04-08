@@ -1,4 +1,4 @@
-public class AbstractClasses {
+public class ShapesClasses {
 
     public static void main (String [] args) {
 //  For one parameter using constructors or method:
@@ -29,9 +29,10 @@ public class AbstractClasses {
 
 // with parameters when creating the instance
         Rectangle rectangleSecondOption = new Rectangle(5,7);
-        System.out.println("The area is: " + rectangleSecondOption.getArea());
-        System.out.println("The perimeter is: " + rectangleSecondOption.getPerimeter());
-        System.out.println("The diagonal is: " + rectangleSecondOption.getDiagonal());
+//        System.out.println("The area is: " + rectangleSecondOption.getArea());
+//        System.out.println("The perimeter is: " + rectangleSecondOption.getPerimeter());
+//        System.out.println("The diagonal is: " + rectangleSecondOption.getDiagonal());
+        System.out.println(rectangleSecondOption);
     }
 }
 

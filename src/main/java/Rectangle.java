@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle extends Main {
     private double  length;
     private double width;
 
@@ -14,5 +14,9 @@ public class Rectangle {
     }
     public double getDiagonal(){
       return Math.sqrt(Math.pow(width,2)+ Math.pow(length,2));
+    }
+    @Override
+    public String toString(){
+        return length + width + " Test override";
     }
 }

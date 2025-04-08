@@ -4,7 +4,6 @@ public class SumUsingFor {
         calculateSum();
     }
 
-
         private static void calculateSum() {
             int sum = 0;
             {
