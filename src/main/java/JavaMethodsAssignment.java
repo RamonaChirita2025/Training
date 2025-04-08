@@ -90,7 +90,6 @@ public class JavaMethodsAssignment {
         if (digitsFromPassword.size() < 2) {
             return false;
         }
-
         return true;
     }
 
