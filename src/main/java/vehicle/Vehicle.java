@@ -1,8 +1,8 @@
 package vehicle;
 
 public class Vehicle {
-    String name;
-    String color;
+    private String name;
+    private String color;
 
     public String getName() {
         return name;
